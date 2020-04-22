@@ -1,8 +1,8 @@
 nightwatch_config = {
     "src_folders": [
-        "tests"
+        "tests/remote"
       ],
-      "output_folder": "reports",
+      "output_folder": "reports/remote",
     selenium : {
       "start_process" : false,
       "host" : "hub-cloud.browserstack.com",
