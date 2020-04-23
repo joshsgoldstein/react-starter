@@ -30,6 +30,7 @@ nightwatch_config = {
     },
     chromeWin: {
       desiredCapabilities: {
+        "name": "Chrome Windows Test",
         "os": "Windows",
         "os_version": "10",
         "browserName": "Chrome",
@@ -40,11 +41,13 @@ nightwatch_config = {
     },
     firefoxMac: {
       desiredCapabilities: {
+        "name": "Firefox Mac Test",
         browser: "firefox"
       }
     },
     firefoxWin: {
       desiredCapabilities: {
+        "name": "Firefox Windows Test",
         "os": "Windows",
         "os_version": "10",
         "browserName": "Firefox",
@@ -70,6 +73,7 @@ nightwatch_config = {
     },
     edge: {
       desiredCapabilities: {
+        "name": "Edge Windows Test",
         "os": "Windows",
         "os_version": "10",
         "browserName": "Edge",
