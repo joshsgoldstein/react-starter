@@ -16,7 +16,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    // "test": "react-scripts test",
     "eject": "react-scripts eject",
     "test": "nightwatch -c conf/multiple.conf.js -e firefoxWin,firefoxMac,chromeWin,chromeMac,edge",
     "meow-safari": "nightwatch -c conf/multiple.conf.js -e safari",
