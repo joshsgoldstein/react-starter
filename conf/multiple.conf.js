@@ -13,23 +13,43 @@ nightwatch_config = {
     "browserstack.key": "VzqJNX3opwQyCz85VVhy",
     "project": "Test",
     "browserstack.debug": "true",
-    "name": "Multiple Remote Test",
+
     "os": "OS X",
     "os_version": "Catalina"
   },
 
   test_settings: {
     default: {},
-    chrome: {
+    chromeMac: {
       desiredCapabilities: {
         "browserName": "Chrome",
+        "name": "Chrome Mac Test",
         "browser_version": "81.0",
 
       }
     },
-    firefox: {
+    chromeWin: {
+      desiredCapabilities: {
+        "os": "Windows",
+        "os_version": "10",
+        "browserName": "Chrome",
+        "browser_version": "81.0",
+        "browserstack.selenium_version": "3.141.59"
+
+      }
+    },
+    firefoxMac: {
       desiredCapabilities: {
         browser: "firefox"
+      }
+    },
+    firefoxWin: {
+      desiredCapabilities: {
+        "os": "Windows",
+        "os_version": "10",
+        "browserName": "Firefox",
+        "browser_version": "76.0 beta",
+        "browserstack.selenium_version": "3.141.59"
       }
     },
     safari: {
