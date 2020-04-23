@@ -7,6 +7,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "browserstack-local": "^1.4.5",
+    "core-util-is": "^1.0.2",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
@@ -17,8 +18,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "meow": "nightwatch -c conf/single.conf.js",
-    "meow-local": "./scripts/nightwatch.local.runner.js -c conf/local.conf.js"
+    "meow": "nightwatch -c conf/multiple.conf.js -e safari,firefox,chrome,ie,edge",
+    "meow-safari": "nightwatch -c conf/multiple.conf.js -e safari",
+    "meow-single-remote": "nightwatch -c conf/single.conf.js",
+    "meow-local-all": "./scripts/nightwatch.local.runner.js -c conf/local.conf.js -e safari,chrome,firefox,ie,edge"
   },
   "eslintConfig": {
     "extends": "react-app"

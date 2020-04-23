@@ -4,7 +4,7 @@ export default class DisplayMessage extends React.Component {
     render() {
         console.log(this.props);
         return (
-            <div>
+            <div id="textArea">
                 <p>
                 Hello {this.props.term}!,
                     Thank you for clicking through my test.

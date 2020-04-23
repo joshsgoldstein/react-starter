@@ -5,9 +5,12 @@ const server = fork('./server'); // launch the server
 module.exports = {
   'Demo test': function (browser) {
     browser
-      .url('http://localhost:3001')
+      .url('http://localhost:3002')
       .assert.titleContains('Tech Kid News')
-      .pause(1000)
+      // .assert.visible('#termInput')
+      // .setValue('#termInput','Marco')
+      // .click('#clickButton')
+      // .assert.containsText('#textArea','Marco')
       .end()
   }
 }
