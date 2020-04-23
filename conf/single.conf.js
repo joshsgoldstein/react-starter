@@ -15,7 +15,7 @@ nightwatch_config = {
           'browserstack.user': 'joshgoldstein1',
           'browserstack.key': 'VzqJNX3opwQyCz85VVhy',
           'browser': 'chrome',
-          'name': 'Bstack-[Nightwatch] Sample Test'
+          'name': 'Browserstack Remote Test'
         }
       }
     }

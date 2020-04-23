@@ -5,9 +5,9 @@
 
   <testsuite name="react-homepage"
     errors="0" failures="0" hostname="" id="" package="react-homepage" skipped="0"
-    tests="1" time="2.761" timestamp="">
+    tests="1" time="3.321" timestamp="">
   
-    <testcase name="Demo test" classname="react-homepage" time="2.761" assertions="1">
+    <testcase name="Demo test" classname="react-homepage" time="3.321" assertions="1">
 
     
     </testcase>
