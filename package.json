@@ -21,7 +21,8 @@
     "meow": "nightwatch -c conf/multiple.conf.js -e safari,firefox,chrome,ie,edge",
     "meow-safari": "nightwatch -c conf/multiple.conf.js -e safari",
     "meow-single-remote": "nightwatch -c conf/single.conf.js",
-    "meow-local-all": "./scripts/nightwatch.local.runner.js -c conf/local.conf.js -e safari,chrome,firefox,ie,edge"
+    "meow-local-all": "./scripts/nightwatch.local.runner.js -c conf/local.conf.js -e safari,chrome,firefox,ie,edge",
+    "meow-local-ie": "./scripts/nightwatch.local.runner.js -c conf/local.conf.js -e ie"
   },
   "eslintConfig": {
     "extends": "react-app"

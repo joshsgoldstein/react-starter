@@ -7,7 +7,7 @@ module.exports = {
     browser
       .url('http://localhost:3002')
       .assert.titleContains('Tech Kid News')
-      // .assert.visible('#termInput')
+      .assert.visible('[id=termInput]')
       // .setValue('#termInput','Marco')
       // .click('#clickButton')
       // .assert.containsText('#textArea','Marco')
