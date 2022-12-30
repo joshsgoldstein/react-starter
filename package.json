@@ -40,6 +40,6 @@
     ]
   },
   "devDependencies": {
-    "nightwatch": "1.3.3"
+    "nightwatch": "1.4.0"
   }
 }
